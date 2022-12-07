@@ -34,9 +34,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  NO_DIODE = switches are directly connected to AVR pins
  *
 */
-#define DIRECT_PINS {   \
-    { C6, D7, E6, B4, B5, F4, F5, F6} \
-}
+#define DIODE_DIRECTION COL2ROW
+#define MATRIX_ROW_PINS { D4 }
+#define MATRIX_COL_PINS { C6, D7, E6, B4, B5, F4, F5, F6}
 
 #define BACKLIGHT_PIN D3
 #define BACKLIGHT_BREATHING
